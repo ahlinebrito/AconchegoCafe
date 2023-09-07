@@ -1,0 +1,156 @@
+ body {
+    background-image:url(coffeeshopretrato.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+  }
+  header {
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+}
+
+header p {
+    font-size: 18px;
+    color:white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #ffaa66;
+    font-size: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+    color: #fff;
+}
+
+#banner {
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.377);
+    padding: 1%;
+    border-radius: 10000px;
+}
+
+#banner h2 {
+    font-size: 28px;
+}
+
+#menu h2 {
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+#menu {
+    list-style: none;
+    text-align: left;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.629);
+    padding: 1%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   
+}
+
+#menu li {
+    font-size: 20px;
+    margin-bottom: 20px;
+  
+}
+
+#espacos .imagem-espaco {
+    margin-bottom: 20px;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+#espacos img {
+    max-width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.629);
+    padding: 1%;
+    border-radius: 10px;
+}
+
+#espacos h2 {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.629);
+    padding: 1%;
+    border-radius: 10px;
+}
+
+#espacos p {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.629);
+}
+
+
+#localizacao p {
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.629);
+}
+
+#localizacao img{
+    max-width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.629);
+    padding: 1%;
+    border-radius: 10px;
+}
+
+#localizacao h2 {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.629);
+    padding: 1%;
+    border-radius: 10px;
+}
+
+#contato p {
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.629);
+    padding: 1%;
+    border-radius: 10px;
+
+}
+
+#contato h2 {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.629);
+    padding: 1%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    background-color:black;
+    padding: 10px;
+    position: absolute;
+    bottom: -3100;
+    width: 100%;
+}
